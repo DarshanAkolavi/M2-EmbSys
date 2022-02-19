@@ -37,3 +37,16 @@ This helps set the wash time for your clothes, which can be set manually or auto
 ## Heating element.
 This heats the water up in the washing machine to the desired temperature. 
 
+## High Level Requirements
+  1.Touchless and Proximity Sensors.  
+  2.Power input to the sysytem.     
+  3.Weaight of the      
+  4.Temperature sensor and Humidity Sensors to check temperature of the food(Sensing Unit).             
+  5.Wireless connectivity for sensing and aoperating the sysytem.                
+  6..
+
+## Low Level Requirements  
+  1.             
+  2.          
+  3..                
+  4.safety look and user friendly.
