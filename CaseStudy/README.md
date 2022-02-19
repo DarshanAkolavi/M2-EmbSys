@@ -88,17 +88,15 @@ This helps set the wash time for your clothes, which can be set manually or auto
 This heats the water up in the washing machine to the desired temperature. 
 
 ## High Level Requirements
-  1.Touchless and Proximity Sensors.  
-  2.Power input to the sysytem.     
-  3.Weaight of the      
-  4.Temperature sensor and Humidity Sensors to check temperature of the food(Sensing Unit).             
-  5.Wireless connectivity for sensing and aoperating the sysytem.                
-  6..
+  1.washing machine processes are electrically controlled, such as the drum, valves, pump, motor and heating           
+  2.Touchless and Proximity Sensors.             
+  3.The thermostat measures the water coming into your washing machine and may heat up the water using the heating element to the required temperature.               
+  4.The programmer in the machine opens the valves to let the hot and cold water into the machine, this then fills both drums up .                   
+  5.Wireless connectivity for sensing and operating the sysytem.                 
 
-## Low Level Requirements  
-  1.             
-  2.          
-  3..                
-  4.safety look and user friendly.
+## Low Level Requirements             
+  1. Detergent for removing the dirt from the clothes, and pulls it into the water.                     
+  2. The inner drum begins to rotate back and forth, mixing the clothes up in the warm, soapy water, agitating them to help remove stains and soiling                     
+  3. safety look and user friendly.
 
 
