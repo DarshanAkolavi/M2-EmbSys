@@ -74,10 +74,29 @@
 
 
 
-## 5W and 1H :- 
+## 5W and 1H :
 
+ ## WHAT 
+ 
+ ## WHY
+ 
+ ## WHERE  
+ 
+ ## WHEN
+ 
+ ## WHO
+  
 
-## SWOT Analysis :- 
+## SWOT Analysis :
+
+## STENGTH
+
+## WHEAKNESS
+
+## OPPORTUNTIES
+
+## THREATS
+
 
 ## Features:-
 
