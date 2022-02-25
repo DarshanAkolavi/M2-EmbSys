@@ -86,7 +86,11 @@
  ## WHEN
  
  ## WHO
+   
   
+ ## HOW
+ we can achieve this phenomenon by putting in one or two of servo motors with the solar battery that can change
+ the direction in step with Sun's position.
 
 ## SWOT Analysis :
 
