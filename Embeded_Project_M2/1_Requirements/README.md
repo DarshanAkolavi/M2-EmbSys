@@ -77,6 +77,7 @@
 ## 5W and 1H :
 
  ## WHAT 
+ *
  
  ## WHY
  
@@ -90,21 +91,19 @@
 ## SWOT Analysis :
 
 ## STENGTH
+ * Easy installation.
+ * Low maintenance.
+ * Fully automatic, saves man power.
+ * Consume very little energy, ideal for continuous operation.
 
 ## WHEAKNESS
-
+  * 
 ## OPPORTUNTIES
+ * Helps in maximizing the solar energy absorption by continuously tracking the sun
+ * Though solar energy can be utilized to maximum extent this may create problems in rainy season.
+ *  solar energy can be saved to batteries, they are heavy and occupy more space and required to change time to time.
 
 ## THREATS
-
-
-## Features:-
-
- - Easy installation.
- - Low maintenance.
- - Compact elegant design.
- - Fully automatic, saves man power.
- - Consume very little energy, ideal for continuous operation.
 
 
 
@@ -112,7 +111,7 @@
 
 ##
  * The solar energy can be reused as it is non-renewable resource.
- * This also saves money as there is no need to pay for energy used (excluding the initial setup cost)
+ * This also saves money as there is no need to pay for energy used (excluding the initial setup cost).
  * Helps in maximizing the solar energy absorption by continuously tracking the sun.
  * Solar trackers generate additional electricity in roughly an equivalent quantity of area required for fixed-tilt systems, creating them ideal for optimizing land usage.
  * Advancements in technology and responsibility in natural philosophy and mechanics have drastically reduced long-run maintenance issues for pursuit systems.
