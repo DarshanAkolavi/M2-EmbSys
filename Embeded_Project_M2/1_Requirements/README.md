@@ -4,13 +4,15 @@
  * To track the sun's position and rotate the panel according to the sun's position and receive the
     sunlight at its fullest potential during the daytime.
  * Solar panel absorbs the energy from the Sun, converts it into electrical energy and stores the energy in a battery.            
- * The position of the Sun with respect to the solar panel is not fixed due to the rotation of the Earth. For an efficient usage of the solar energy, the Solar panels should absorb energy to a maximum extent.           
+ * The position of the Sun with respect to the solar panel is not fixed due to the rotation of the Earth. 
+ * For an efficient usage of the solar energy, the Solar panels should  absorb energy to a maximum extent.           
  * This can be done only if the panels are continuously placed towards the direction of the Sun. So, solar panel should continuously rotate in the direction of Sun.
  
+ -----------------------------------------------------------------------------------------------------------------------------------
  # Block Diagram
  
  ![suntrack](https://user-images.githubusercontent.com/98837660/155653661-4c425b43-ac22-444f-9317-290a224b35e2.png)
-
+--------------------------------------------------------------------------------------
  
  # Working Of Solar panel Tracker 
  
@@ -21,9 +23,9 @@
  * Servo motor rotates the panel at certain angle.
  * When the intensity of the light falling on right LDR is more, panel slowly moves towards right and if intensity on the left LDR is more, panel slowly moves towards left. 
  * In the noon time, Sun is ahead and intensity of light on both the panels is same. In such cases, panel is constant and there is no rotation.
+-------------------------------------------------------------------------------
 
-
-## High Level Requirement :
+ ## High Level Requirement : 
   * ATMEGA328
   * LDR Sensers
   * Servo Motor And DC Motor
@@ -34,7 +36,7 @@
   * Spectrum Analyzer
   * resistrors
   * Push Button
-  
+  ------------------------------------------------------------------------------
  
  ## Components Required :
 
@@ -72,25 +74,37 @@
 * Practical resistors as discrete components can be composed of various compounds and forms.
 *  Resistors are also implemented within integrated circuits.
 
-
+----------------------------------------------------------------------------------------
 
 ## 5W and 1H :
-
+--------------------------------------------
  ## WHAT 
- *
- 
+ * Sun tracking solar panel works on the sensing of the solar radiations which are detected by the LDR sensers,To track the sun's position and rotate the panel according to the  sun's position and receive the sunlight at its fullest potential during the daytime.
+ ------------------------------------------
  ## WHY
- 
+ * This can be done only if the panels are continuously placed towards the direction of the Sun. So, solar panel should continuously rotate in the direction of Sun.
+ * so that the Solar trackers generate additional electricity in roughly an equivalent quantity of area required for fixed-tilt systems, creating them ideal for optimizing land usage.
+ ------------------------------------------
  ## WHERE  
- 
+ * The sun tracking solar panal can be used in  Hotels, Home apartments, Commercial complexes,Factories.
+ * by the Advancements in technology and responsibility in natural philosophy and mechanics have drastically reduced long-run maintenance issues for pursuit systems.
+ ---------------------------------------------
  ## WHEN
- 
+  * The Purpose of the sun tracking solar panel is that the solar energy can be reused as it is non-renewable resource.
+  * This also saves money as there is no need to pay for energy used (excluding the initial setup cost).
+  * Helps in maximizing the solar energy absorption by continuously tracking the sun.
+ -----------------------------------------------
  ## WHO
-   
-  
+ * These panels can be used to power the traffic lights and streetlights
+ * These can be used in home to power the appliances using solar power.
+ * These can be used in industries as more energy can be saved by rotating the panel.
+  ------------------------------------------------     
  ## HOW
- we can achieve this phenomenon by putting in one or two of servo motors with the solar battery that can change
- the direction in step with Sun's position.
+ * Panel is arranged in such a way that light on two LDRs is compared and panel is rotated towards LDR which have high intensity i.e. low resistance compared to other. 
+ * Servo motor rotates the panel at certain angle.
+ * When the intensity of the light falling on right LDR is more, panel slowly moves towards right and if intensity on the left LDR is more, panel slowly moves towards left. 
+ * In the noon time, Sun is ahead and intensity of light on both the panels is same. In such cases, panel is constant and there is no rotation.
+------------------------------------------------------------------
 
 ## SWOT Analysis :
 
@@ -101,25 +115,32 @@
  * Consume very little energy, ideal for continuous operation.
 
 ## WHEAKNESS
-  * 
+  * Light Induced Degradation.
+  * Degradation By Components.
+  * Natural Degradation.
+  * Poor Durability of The Panels.
+  
 ## OPPORTUNTIES
- * Helps in maximizing the solar energy absorption by continuously tracking the sun
+ * Helps in maximizing the solar energy absorption by continuously tracking the sun.
+ * saving in eleicrticity consumption.
+ * long term economic benifits.
  * Though solar energy can be utilized to maximum extent this may create problems in rainy season.
  *  solar energy can be saved to batteries, they are heavy and occupy more space and required to change time to time.
 
 ## THREATS
-
-
+  * change of solar panel.
+  * Environmental Damages.
+  * lack of maintenance 
+  * lack of supply and replacement.
+------------------------------------------------------------------
 
 ## Advantages :- 
-
 ##
  * The solar energy can be reused as it is non-renewable resource.
  * This also saves money as there is no need to pay for energy used (excluding the initial setup cost).
  * Helps in maximizing the solar energy absorption by continuously tracking the sun.
  * Solar trackers generate additional electricity in roughly an equivalent quantity of area required for fixed-tilt systems, creating them ideal for optimizing land usage.
- * Advancements in technology and responsibility in natural philosophy and mechanics have drastically reduced long-run maintenance issues for pursuit systems.
-  
+ * Advancements in technology and responsibility in natural philosophy and mechanics have drastically reduced long-run maintenance issues for pursuit systems. 
  1. Power Saver:Living in an age where we need to be more conscious of the energy that we use, sun tracking solar panel controller is ideal at saving power.
     However, with automatic controllers, the electricity usage is also minimized.
  2. Money Saver: These devices accurately regulate how much energy is used to protect against any unnecessary electricity usage. Over time, the money saved is quite substantial.
@@ -128,25 +149,20 @@
  5. Easy Installation with LDR Monitoring.
 
 ## Disadvantages :- 
-
 1 Though solar energy can be utilized to maximum extent this may create problems in rainy season.
 2 Although solar energy can be saved to batteries, they are heavy and occupy more space and required to change time to time.
 3 They are bit  expensive.
-
-
+---------------------------------------------------------------------
 ## Benefits :- 
-
  1. Easy installation
  2. Minimal maintenance
  3. Compact design
  4. Save money by using less electricity and water
 
-
 ## Applications :- 
-
- ###
+ ##
 * Hotels, Home apartments, Commercial complexes,Factories
 * These panels can be used to power the traffic lights and streetlights
 * These can be used in home to power the appliances using solar power.
 * These can be used in industries as more energy can be saved by rotating the panel.
-       
+-------------------------------------
