@@ -34,6 +34,7 @@
        average distinction.
 
   Step7: in step with the difference the position of servo are going to be
-
+  
   step8: Stop
+  
   ---------------------------------------
