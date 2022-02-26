@@ -148,10 +148,11 @@
  4. Reliable Electronic Design.    
  5. Easy Installation with LDR Monitoring.
 
-## Disadvantages :- 
-1 Though solar energy can be utilized to maximum extent this may create problems in rainy season.
-2 Although solar energy can be saved to batteries, they are heavy and occupy more space and required to change time to time.
-3 They are bit  expensive.
+## Disadvantages :
+
+  1 Though solar energy can be utilized to maximum extent this may create problems in rainy season.                
+  2 Although solar energy can be saved to batteries, they are heavy and occupy more space and required to change time to time.               
+  3 They are bit  expensive.                   
 ---------------------------------------------------------------------
 ## Benefits :- 
  1. Easy installation
