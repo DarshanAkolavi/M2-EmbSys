@@ -1,12 +1,12 @@
 # SUN TRACKING SOLAR PANEL
  
  ##
- * To track the sun's position and rotate the panel according to the sun's position and receive the
+* To track the sun's position and rotate the panel according to the sun's position and receive the
     sunlight at its fullest potential during the daytime.
- * Solar panel absorbs the energy from the Sun, converts it into electrical energy and stores the energy in a battery.            
+ * Solar panel absorbs the energy from the Sun, converts it into electrical energy, and stores the energy in a battery.            
  * The position of the Sun with respect to the solar panel is not fixed due to the rotation of the Earth. 
- * For an efficient usage of the solar energy, the Solar panels should  absorb energy to a maximum extent.           
- * This can be done only if the panels are continuously placed towards the direction of the Sun. So, solar panel should continuously rotate in the direction of Sun.
+ * For efficient usage of solar energy, the Solar panels should absorb energy to a maximum extent.           
+ * This can be done only if the panels are continuously placed towards the direction of the Sun. So, the solar panels should continuously rotate in the direction of the Sun.
  
  -----------------------------------------------------------------------------------------------------------------------------------
  # Block Diagram
@@ -16,13 +16,14 @@
  
  # Working Of Solar panel Tracker 
  
- * The Sun tracking solar panel consists of two LDRs, solar panel and a servo motor and ATmega328 Micro controller.
- * Two light dependent resistors are arranged on the edges of the solar panel. 
- * Light dependent resistors produce low resistance when light falls on them. The servo motor connected to the panel rotates the panel in the direction of Sun. 
- * Panel is arranged in such a way that light on two LDRs is compared and panel is rotated towards LDR which have high intensity i.e. low resistance compared to other. 
- * Servo motor rotates the panel at certain angle.
- * When the intensity of the light falling on right LDR is more, panel slowly moves towards right and if intensity on the left LDR is more, panel slowly moves towards left. 
- * In the noon time, Sun is ahead and intensity of light on both the panels is same. In such cases, panel is constant and there is no rotation.
+ * The Sun tracking solar panel consists of two LDRs, a solar panel, a servo motor, and an ATmega328 Microcontroller.
+ * Two light-dependent resistors are arranged on the edges of the solar panel. 
+ * Light-dependent resistors produce low resistance when light falls on them. The servo motor connected to the panel rotates the panel in the direction of the Sun. 
+ * Panel is arranged in such a way that light on two LDRs is compared and the panel is rotated towards LDR which have high intensity i.e. low resistance compared to other. 
+ * Servo motor rotates the panel at a certain angle.
+ * When the intensity of the light falling on the right LDR is more, the panel slowly moves towards the right and if intensity on the left LDR is more, 
+   the panel slowly moves  towards the left. 
+ * In the noontime, Sun is ahead and the intensity of light on both the panels is the same. In such cases, the panel is constant and there is no rotation.
 -------------------------------------------------------------------------------
 
  ## High Level Requirement : 
@@ -41,19 +42,19 @@
  ## Components Required :
 
  ## ATMEGA328
-   * ATmega328 is an AVR family micro controller. It is based on advanced RISC architecture.
-   * It is an 8-bit controller. It has 32K Bytes of Programmable Flash memory, 1K Bytes of EEPROM and 2K Bytes of SRAM.
+   * ATmega328 is an AVR family microcontroller. It is based on advanced RISC architecture.
+   * It is an 8-bit controller. It has 32K Bytes of Programmable Flash memory, 1K Bytes of EEPROM, and 2K Bytes of SRAM.
    * It has 23 programmable I/O pins. It supports peripheral features like two 8-bit timers, one 16-bit timer, 6 channel ADC with 10-bit resolution, programmable USART, Serial      Peripheral Interface, 2 wire serial interface (I2C), etc.
   
  ## Sensors:
-  * Light Dependent Resistors or LDRs are the resistors whose resistance values depend on intensity of the light.
-  *  As the intensity of light falling on the LDR increases, resistance value decreases. In dark, LDR will have maximum resistance. 
+  * Light Dependent Resistors or LDRs are the resistors whose resistance values depend on the intensity of the light.
+  *  As the intensity of light falling on the LDR increases, the resistance value decreases. In dark, LDR will have maximum resistance. 
   *  LDR will output an analog value which should be converted to digital. This can be done using analog to digital converter.
  
  ## Solar Panel
  
  * Solar panel is placed on a piece of cardboard (just for demonstration) and the bottom of the cardboard is connected to Servo motor. 
- * Solar panel consists of photovoltaic cells   arranged in an order. Photovoltaic cell is nothing but a solar cell.
+ * Solar panel consists of photovoltaic cells arranged in an order. A photovoltaic cell is nothing but a solar cell.
  *  Solar cell is made up of semiconductor material silicon.
 
  ## switch or gate for electronic signals.
@@ -62,14 +63,14 @@
  * we think that BC547 is a normal NPN (Negative-Positive-Negative) junction transistor. 
    
 ## Servo Motor
-* Servo motor is used to rotate the panel. To drive the servo motor, a PWM Signal must be provided to its control pin and hence Pin 17 (which has PWM) is connected to the control pin of the servo motor.
+* Servo motor is used to rotate the panel. To drive the servo motor, a PWM Signal must be provided to its control pin, and hence Pin 17 (which has PWM) is connected to the control pin of the servo motor.
 * By connecting a battery to the solar panel, you can store the energy generated by the solar cells and this energy can be used when required.
-*  There are separate charge controller circuits dedicated to efficiently control the charge acquired from solar panels and charge the batteries.
+*  There are separate charge controller circuits dedicated to efficiently controlling the charge acquired from solar panels and charging the batteries.
 
 ## Resistors.
   
  * A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element.
- * In electronic circuits, resistors are used to reduce current flow, adjust signal levels, to divide voltages, bias active elements, and terminate transmission lines,             among other uses.
+ * In electronic circuits, resistors are used to reduce current flow, adjust signal levels, divide voltages, bias active elements, and terminate transmission lines,             among other uses.
 * Resistors are common elements of electrical networks and electronic circuits and are ubiquitous in electronic equipment. 
 * Practical resistors as discrete components can be composed of various compounds and forms.
 *  Resistors are also implemented within integrated circuits.
@@ -79,53 +80,53 @@
 ## 5W and 1H :
 --------------------------------------------
  ## WHAT 
- * Sun tracking solar panel works on the sensing of the solar radiations which are detected by the LDR sensers,To track the sun's position and rotate the panel according to the  sun's position and receive the sunlight at its fullest potential during the daytime.
+ * Sun tracking solar panel works on the sensing of the solar radiations which are detected by the LDR sensors, To track the sun's position and rotate the panel according to the sun's position and receive the sunlight at its fullest potential during the daytime.
  ------------------------------------------
  ## WHY
- * This can be done only if the panels are continuously placed towards the direction of the Sun. So, solar panel should continuously rotate in the direction of Sun.
+ * This can be done only if the panels are continuously placed towards the direction of the Sun. So, the solar panels should continuously rotate in the direction of the Sun.
  * so that the Solar trackers generate additional electricity in roughly an equivalent quantity of area required for fixed-tilt systems, creating them ideal for optimizing land usage.
  ------------------------------------------
  ## WHERE  
- * The sun tracking solar panal can be used in  Hotels, Home apartments, Commercial complexes,Factories.
+ * The sun-tracking solar panel can be used in  Hotels, Home apartments, Commercial complexes, Factories.
  * by the Advancements in technology and responsibility in natural philosophy and mechanics have drastically reduced long-run maintenance issues for pursuit systems.
  ---------------------------------------------
  ## WHEN
-  * The Purpose of the sun tracking solar panel is that the solar energy can be reused as it is non-renewable resource.
+  * The Purpose of the sun-tracking solar panel is that the solar energy can be reused as it is a non-renewable resource.
   * This also saves money as there is no need to pay for energy used (excluding the initial setup cost).
-  * Helps in maximizing the solar energy absorption by continuously tracking the sun.
+  * Helps in maximizing solar energy absorption by continuously tracking the sun.
  -----------------------------------------------
  ## WHO
  * These panels can be used to power the traffic lights and streetlights
- * These can be used in home to power the appliances using solar power.
+ * These can be used in the home to power the appliances using solar power.
  * These can be used in industries as more energy can be saved by rotating the panel.
   ------------------------------------------------     
  ## HOW
- * Panel is arranged in such a way that light on two LDRs is compared and panel is rotated towards LDR which have high intensity i.e. low resistance compared to other. 
- * Servo motor rotates the panel at certain angle.
- * When the intensity of the light falling on right LDR is more, panel slowly moves towards right and if intensity on the left LDR is more, panel slowly moves towards left. 
- * In the noon time, Sun is ahead and intensity of light on both the panels is same. In such cases, panel is constant and there is no rotation.
+ * Panel is arranged in such a way that light on two LDRs is compared and the panel is rotated towards LDR which have high intensity i.e. low resistance compared to other. 
+ * Servo motor rotates the panel at a certain angle.
+ * When the intensity of the light falling on the right LDR is more, the panel slowly moves towards the right and if the intensity on the left LDR is more, the panel slowly moves towards the left. 
+ * In the noontime, Sun is ahead and the intensity of light on both the panels is the same. In such cases, the panel is constant and there is no rotation.
 ------------------------------------------------------------------
 
 ## SWOT Analysis :
 
-## STENGTH
+## STRENGTH
  * Easy installation.
  * Low maintenance.
- * Fully automatic, saves man power.
+ * Fully automatic, saves manpower.
  * Consume very little energy, ideal for continuous operation.
 
-## WHEAKNESS
+## WEAKNESS
   * Light Induced Degradation.
   * Degradation By Components.
   * Natural Degradation.
   * Poor Durability of The Panels.
   
-## OPPORTUNTIES
- * Helps in maximizing the solar energy absorption by continuously tracking the sun.
- * saving in eleicrticity consumption.
- * long term economic benifits.
- * Though solar energy can be utilized to maximum extent this may create problems in rainy season.
- *  solar energy can be saved to batteries, they are heavy and occupy more space and required to change time to time.
+## OPPORTUNITIES
+ * Helps in maximizing solar energy absorption by continuously tracking the sun.
+ * saving in electricity consumption.
+ * long-term economic benefits.
+ * Though solar energy can be utilized to the maximum extent this may create problems in the rainy season.
+ *  solar energy can be saved to batteries, they are heavy and occupy more space, and are required to change from time to time.
 
 ## THREATS
   * change of solar panel.
@@ -136,36 +137,36 @@
 
 ## Advantages :- 
 ##
- * The solar energy can be reused as it is non-renewable resource.
+ * solar energy can be reused as it is a non-renewable resource.
  * This also saves money as there is no need to pay for energy used (excluding the initial setup cost).
- * Helps in maximizing the solar energy absorption by continuously tracking the sun.
+ * Helps in maximizing solar energy absorption by continuously tracking the sun.
  * Solar trackers generate additional electricity in roughly an equivalent quantity of area required for fixed-tilt systems, creating them ideal for optimizing land usage.
  * Advancements in technology and responsibility in natural philosophy and mechanics have drastically reduced long-run maintenance issues for pursuit systems. 
- 1. Power Saver:Living in an age where we need to be more conscious of the energy that we use, sun tracking solar panel controller is ideal at saving power.
-    However, with automatic controllers, the electricity usage is also minimized.
+ 1. Power Saver: Living in an age where we need to be more conscious of the energy that we use, a sun-tracking solar panel controller is ideal for saving power.
+    However, with automatic controllers, electricity usage is also minimized.
  2. Money Saver: These devices accurately regulate how much energy is used to protect against any unnecessary electricity usage. Over time, the money saved is quite substantial.
- 3. Automatic: Another notable advantage with these devices is that they regulate on their own.
+ 3. Automatic: Another notable advantage of these devices is that they regulate on their own.
  4. Reliable Electronic Design.    
  5. Easy Installation with LDR Monitoring.
 
 ## Disadvantages :
 
    ##
-   1 They are bit  expensive.
-   2 Though solar energy can be utilized to maximum extent this may create problems in rainy season.                
-   3 Although solar energy can be saved to batteries, they are heavy and occupy more space and required to change time to time.               
+   1 They are a bit expensive.
+   2 Though solar energy can be utilized to the maximum extent this may create problems in the rainy season.                
+   3 Although solar energy can be saved to batteries, they are heavy and occupy more space, and are required changing time to time.               
    
 ---------------------------------------------------------------------
-## Benefits :- 
- 1. Easy installation
- 2. Minimal maintenance
- 3. Compact design
- 4. Save money by using less electricity and water
+## Benefits:- 
+ 1. Easy installation.
+ 2. Minimal maintenance.
+ 3. Compact design.
+ 4. Save money by using less electricity and water.
 
-## Applications :- 
+## Applications:- 
  ##
-* Hotels, Home apartments, Commercial complexes,Factories
-* These panels can be used to power the traffic lights and streetlights
-* These can be used in home to power the appliances using solar power.
+* Hotels, Home apartments, Commercial complexes, Factories, etc.
+* These panels can be used to power the traffic lights and streetlights.
+* These can be used in the home to power the appliances using solar power.
 * These can be used in industries as more energy can be saved by rotating the panel.
 -------------------------------------
