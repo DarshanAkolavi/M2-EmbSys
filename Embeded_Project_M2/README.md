@@ -2,7 +2,7 @@
 Design and Simulation of Circuits and Embedded Systems
 --------------------------------------------
 ## Project on
-## SUN TRACKING SOLAR PANAL
+## SUN TRACKING SOLAR PANEL
 ----------------------------------
 ## Badges
 1)
