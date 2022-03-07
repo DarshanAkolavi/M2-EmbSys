@@ -1,4 +1,8 @@
 ## Testplan and Output
+
+| ID    | Description          | Status |	Description	Input	Expected output	Actual Output	Passed Or Not
+|:--:   | :--:                 | :--:   |
+|HLR1	  | Rain Sensor	Sensor | value <5	| Servo motor rotates 180 degrees	Servo motor rotates 180 degrees |
 ----------------------
 ## simulation design
 
