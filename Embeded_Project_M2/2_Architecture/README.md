@@ -7,16 +7,15 @@
 
 -------------------------------------------------------------------
 
-## circute design
+## circute design 
  
+![solartrack](https://user-images.githubusercontent.com/98837660/157016370-4c8e4f63-6d5b-475b-a736-5f547a38e026.png)
 
-
+-----------------------------------------------------------
 ## flow chart
 ![Untitled Diagram drawio](https://user-images.githubusercontent.com/98837660/155740785-495b0787-4485-4f7d-a15f-ff6a1c99da73.png)
 
 -----------------------------------------------------------
-![image](https://user-images.githubusercontent.com/98837660/157002789-a12ef811-3166-4491-aab7-e754e2b0f253.png)
-
 
 ## Algorithm:
 
