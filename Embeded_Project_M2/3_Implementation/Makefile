@@ -1,7 +1,7 @@
-#Main application file name
+#SolarTracker
 MAIN_APP = Ledblink
 #Main hex file path in windows format
-MAIN_HEX_PATH =C:\LED\$(MAIN_APP).hex
+MAIN_HEX_PATH =C:\LED\$(SolarTracker).hex
 
 # Compiler and other Section
 CC = avr-gcc
@@ -27,10 +27,10 @@ DUDEFLAGS += -P
 DUDEFLAGS += COM3 
 DUDEFLAGS += -b 
 DUDEFLAGS += 19200 
-DUDEFLAGS += -U flash:w:$(MAIN_HEX_PATH):i
+DUDEFLAGS += -U flash:w:$(SolarTrack_HEX_PATH):i
 
 # Sources files needed for building the application 
-SRC = $(MAIN_APP).c
+SRC = $(SolarTrack).c
 SRC += 
 
 # The headers files needed for building the application
@@ -44,8 +44,8 @@ Burn : Build
 Build : $(MAIN_APP).elf
 	$(OBJCOPY) $(HFLAGS) $< $(MAIN_APP).hex
 	
-$(MAIN_APP).elf: $(MAIN_APP).o
+$(SolarTrack).elf: $(MAIN_APP).o
 	$(CC) $(SRC) $(INCLUDE) $(LFLAGS) $@
 	
-$(MAIN_APP).o:$(SRC)
+$(SolarTrack).o:$(SRC)
 	$(CC) $^ $(INCLUDE) $(CFLAGS) $@
