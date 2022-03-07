@@ -1,6 +1,6 @@
-## block Diagram
+## Structureal and Behavioral Design
 --------------------------------------------------------------------------------
-
+## block Diagram
 
 ![sun tracker drawio (2)](https://user-images.githubusercontent.com/98837660/155744247-515f5ebe-9ca6-4bde-9b3e-bcc824673094.png)
 
@@ -13,7 +13,8 @@
 
 -----------------------------------------------------------
 ## flow chart
-![Untitled Diagram drawio](https://user-images.githubusercontent.com/98837660/155740785-495b0787-4485-4f7d-a15f-ff6a1c99da73.png)
+                     
+   ![Untitled Diagram drawio](https://user-images.githubusercontent.com/98837660/155740785-495b0787-4485-4f7d-a15f-ff6a1c99da73.png)
 
 -----------------------------------------------------------
 
