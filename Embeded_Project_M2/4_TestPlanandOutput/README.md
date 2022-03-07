@@ -6,13 +6,12 @@
 ----------------------------
 ## simulation output
 
+## Flow chart
+
+  ![image](https://user-images.githubusercontent.com/98837660/157019990-1d54e69b-4094-40c4-8ff5-736f7e62114e.png)
+
   
-  flow chart
+ ## Algorithm
   
-  
-  algorithm
-  
-  
-  diagram 
-  code 
+
   
