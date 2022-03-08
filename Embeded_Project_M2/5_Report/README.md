@@ -186,6 +186,25 @@ Step7: in step with the difference the position of servo is going to be
 step8: Stop
 
 -------------------------------------------------
+## Testplan and Output
+
+## High Level Requirements
+
+HLR1 : The LDR sensor Detects the light intensity and give input to the MCU - Implemented.
+
+HLR2 : The system take the input from the MCU and servo motor start rotating - 	Implemented.
+
+HLR3 : As the servo motor start rotating the solar panels also start rotating in the direction of sun -	Implemented.
+
+## Low Level Requirements
+
+LLR1: when sensor detects the light,as the direction of the light changes servo motor also changes the position -Implemented. 
+
+LLR2: LDR senser takes the value of intensity and give it to the muc to change the position of solar panel -	Implemented.
+
+LLR3: LDR sensor should sence the light and helps to get the electricity fronm the solar irradiations-	Implemented.
+
+------------------------------------------------
 ## 4.0 SIMULATION :
 
  Pin Diagram OF ATMega328
