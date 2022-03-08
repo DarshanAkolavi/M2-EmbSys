@@ -1,8 +1,4 @@
 ## Testplan and Output
-
-| ID    | Description          | Status |	Description	Input	Expected output	Actual Output	Passed Or Not
-|:--:   | :--:                 | :--:   |
-|HLR1	  | Rain Sensor	Sensor | value <5	| Servo motor rotates 180 degrees	Servo motor rotates 180 degrees |
 ----------------------
 ## simulation design
 
@@ -16,6 +12,7 @@
 ## Flow chart
   
   ![image](https://user-images.githubusercontent.com/98837660/157019990-1d54e69b-4094-40c4-8ff5-736f7e62114e.png)
+
 
   
  ## Algorithm
