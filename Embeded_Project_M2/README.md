@@ -20,7 +20,7 @@ Design and Simulation of Circuits and Embedded Systems
  ### 2_Design :High level And Low level Designs.
  ### 3_Implementation: simulations,README with Execution,
  ### 4_Testplan And Output: Output of different inputs,analysiss etc.
- ### 5_Report: Report on solar tracker,
+ ### 5_Report: Report on solar tracker,[ProjectM_2 Sun Tracking Solar panel.docx](https://github.com/DarshanAkolavi/M2-EmbSys/files/8202298/ProjectM_2.Sun.Tracking.Solar.panel.docx)
  ### 6_video And Images: simulated outputs and results.
  ### 7_other: Reference papers ,sourses.
 ---------------------------------------------
