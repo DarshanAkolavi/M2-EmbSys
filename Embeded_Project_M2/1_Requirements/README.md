@@ -109,6 +109,9 @@
 
 ## SWOT Analysis :
 
+![image](https://user-images.githubusercontent.com/98837660/157156433-70866839-5118-4fec-b12f-daa1ea193b93.png)
+
+
 ## STRENGTH
  * Easy installation.
  * Low maintenance.
